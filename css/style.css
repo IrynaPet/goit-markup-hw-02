@@ -1,0 +1,172 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-color: #757575;
+    --white-color: #fff;
+    --accent-color: #2196f3;
+    --beige-color: #f5f4fa;
+    --dark-color: #2f303a;
+}
+/* Стилистика шапки */
+.contacts-link:focus,
+.nav-links-link:focus,
+.contacts-link:hover,
+.nav-links-link:hover {
+    color: #2196f3;
+}
+
+/* Стилистика лого */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    margin-right: 93px;
+}
+
+.logo-studio {
+    color: var(--white-color);
+}
+.logo-studio-title {
+    color: var(--primary-text-color);
+}
+
+/* Стилистика общего наполнения */
+body {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+}
+.section {
+    padding: 94px 0;
+}
+
+/* Стилистика героя */
+.section-title {
+    background: var(--dark-color);
+}
+.section-title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+/* Стилистика кнопки */
+button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 0 15px;
+}
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: calc(16\14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24\14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.section-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: calc(42\36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.conteiner-footer {
+    background: #2f303a;
+}
+.address-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24\14);
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+.contacts-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24\14);
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.page-nav,
+.contacts,
+.nav-links,
+.header-conteiner {
+    display: flex;
+}
+.page-nav {
+    align-items: center;
+}
+.header-conteiner {
+    justify-content: space-between;
+}
+
+.nav-links-item + .nav-links-item {
+    margin-left: 50px;
+}
+.contacts-item:not(:last-child) {
+    margin-right: 50px;
+}
+.contacts-link,
+.nav-links-link {
+    padding: 31px 0;
+    display: block;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.contacts-link {
+    color: var(--secondary-color);
+}
+/* Стилистика кнопок портфолио */
+.button-portfolio {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.button-portfolio:hover {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
