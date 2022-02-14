@@ -11,7 +11,7 @@
 .nav-links-link:focus,
 .contacts-link:hover,
 .nav-links-link:hover {
-    color: #2196f3;
+    color: var(--accent-color);
 }
 
 /* Стилистика лого */
@@ -21,7 +21,7 @@
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
-    color: #2196f3;
+    color: var(--accent-color);
     margin-right: 93px;
 }
 
@@ -49,8 +49,6 @@ body {
     background: var(--dark-color);
 }
 .section-title h1 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
@@ -60,13 +58,13 @@ body {
     color: var(--white-color);
 }
 /* Стилистика кнопки */
-button {
+button:hover {
+
     color: var(--white-color);
     background-color: var(--accent-color);
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .conteiner {
@@ -76,54 +74,45 @@ button {
     padding: 0 15px;
 }
 h3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: calc(16\14);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+}
+h2 {
+    color: var(--primary-text-color);
+    font-size: 18px;
 }
 p {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: calc(24\14);
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-color);
 }
 .section-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
-    line-height: calc(42\36);
+    line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .conteiner-footer {
     background: #2f303a;
 }
 .address-footer {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: calc(24\14);
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: #ffffff;
+    color: var(--white-color);
 }
 .contacts-footer {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: calc(24\14);
-
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-
     color: rgba(255, 255, 255, 0.6);
 }
 .page-nav,
@@ -157,10 +146,9 @@ p {
 }
 /* Стилистика кнопок портфолио */
 .button-portfolio {
+    padding: 6px 22px;
     color: var(--primary-text-color);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
     text-align: center;
     cursor: pointer;
     font-family: inherit;
@@ -169,4 +157,5 @@ p {
 .button-portfolio:hover {
     background-color: var(--accent-color);
     color: var(--white-color);
-}
+
+
