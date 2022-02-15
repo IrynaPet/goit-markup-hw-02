@@ -59,7 +59,9 @@ body {
 }
 /* Стилистика кнопки */
 
-.butoon-main:hover {
+.butoon-main:hover,
+.butoon-main:focus
+ {
     background-color: #188CE8;
 }
 .butoon-main{
@@ -160,7 +162,9 @@ p {
     border-radius: 4px;
 }
 
-.button-portfolio:hover {
+.button-portfolio:hover,
+.button-portfolio:focus
+ {
     background-color: var(--accent-color);
     color: var(--white-color);
 
