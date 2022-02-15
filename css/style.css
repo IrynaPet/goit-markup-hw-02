@@ -60,7 +60,7 @@ body {
 /* Стилистика кнопки */
 
 .butoon-main:hover {
-    background-color: var(--accent-color);
+    background-color: #188CE8;
 }
 .butoon-main{
  color: var(--white-color);
